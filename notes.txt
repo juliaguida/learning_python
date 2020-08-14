@@ -1,0 +1,312 @@
+#Python: Operators#
+
+Comparison operators.
+< lesser than
+> greater than
+<= lesser or equal to
+>= greater or  equal to
+!= different or equal to
+== equal to
+
+Can be used in chain comparison operations
+
+Bolean operation
+
+True = 1
+False= 0
+
+Note:  // divide floor 
+
+We can print strings and numbers together without trouble if we separate with commas, e.g. print("Words words", 30, "more words")
+
+
+
+How to add an int(number) to a string(text, phrase wrapped by a ‘or “ quotes(’This is a string’)
+￼
+
+If statement
+
+if <expr>:
+    <statement(s)>
+else:
+    <statement(s)>
+
+Python follows the off-side rule, it indicates  when the function block finishes, by the position of the last statement.
+
+If statement function
+
+name = input('what is your name')
+if name >= 'Julia':
+   print('Hi Julia')
+else:
+   print('Sorry! you are not Julia')
+
+A control flow in python will have the following:
+
+An if statement, a : in the end of the statement, comparison,
+
+Off-side- rule. The position of the last statement will indicated the coding block has ended there.
+
+sound = input('what sounds does the animal make?')
+
+if sound == 'meow':
+  print('You are a cat!')
+elif sound == 'Moo':
+  print('You are a cow!')
+else:
+  print('Dunno this animal')
+
+Guessing Game:
+
+guess = int(guess) In this line a guess int input has been assigned to the variable guess. Replacing the use of int() function or method.
+if guess == 7:  
+  print('You got it')
+elif guess < 7:
+  print('guessed is too low')
+elif guess > 7:
+  print('guessed is too right') 
+
+Speed Limit Sensor.
+
+import random
+random.seed(6779)
+speed_limit = random.randrange(15, 66, 5)
+print("The speed limit is", speed_limit)
+
+speed = input('How fast are you going?')
+speed = int(speed)
+
+if speed == 65:
+  print('Have safe journey')
+elif speed > 65:
+  print('Are you on the hurry?')
+elif speed < 65:
+  print('You are fine')
+
+List in Python is called array in other languages.
+
+min([abs(-100) * 20, 56 * 100, abs(50 - 100) * round(2.1)]) I will return 100.
+
+Finding a specific index of a list.
+
+my_list = [ 'Apple', 'Bananas', 'Pears', ]
+print(my_list[2])
+‘’’ Python like other languages is [0] index count based. First index will be 0 rather than 1.’’’
+
+my_list = [ 'Apple', 'Bananas', 'Pears', ]
+print(len(my_list))
+
+Notes: punctuation in programming is called syntax. Sometimes you’ll get a SyntaxError, which usually means you did something wrong with a comma, parenthesis or bracket.
+
+The important thing is list_name[0] gets you the FIRST element, so you always have to subtract in your mind. You can also use negative numbers to count from the end of the list, like list_name[-2] gets you the second-to-last item.
+
+
+Loops in Python
+
+We learned about for loops, which are ways of doing the exactly same thing to every item in a list.
+
+my_list = [ 1, 2, 3 ]
+
+for list in my_list:
+  
+   print(list)
+
+#named indexes:
+txt1 = "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+#numbered indexes:
+txt2 = "My name is {0}, I'm {1}".format("John",36)
+#empty placeholders:
+txt3 = "My name is {}, I'm {}".format("John",36)
+
+print(txt1)
+print(txt2)
+print(txt3)
+
+[10, 20, 30]
+>>> print(e[0])
+10
+>>> print(e[-1])
+30
+>>> f
+{'x': 10, 'y': 20}
+>>> print(f['x'])
+10
+
+print('Hello '+ a +  ' this is your class ' + str(b)) 
+
+Python 3.7.1 (default, Nov  9 2019, 16:51:04) 
+[Clang 10.0.1 (clang-1001.0.46.4)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = 10
+>>> b = 'Julia'
+>>> c = 1.5
+>>> d = '100'
+>>> e = [10, 20, 30]
+>>> f = { x: 10, y: 20}
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'x' is not defined
+>>> f = { 'x': 10, 'y': 20}
+>>> type(a)
+<class 'int'>
+>>> type(b)
+<class 'str'>
+>>> type(c)
+<class 'float'>
+>>> type(e)
+<class 'list'>
+>>> type(f)
+<class 'dict'>
+>>> e
+[10, 20, 30]
+>>> print(e[0])
+10
+>>> print(e[-1])
+30
+>>> f
+{'x': 10, 'y': 20}
+>>> print(f['x'])
+10
+>>> a = 'Julia'
+>>> b =  2
+>>> aws-ftdwad
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'aws' is not defined
+>>> print('Hello ' + a + 'this is your class ' + str(b))
+Hello Juliathis is your class 2
+>>> print('Hello '+ a +  ' this is your class ' + str(b))
+Hello Julia this is your class 2
+>>> print('Hello {} This is your class {}'.format(a, b))
+Hello Julia This is your class 2
+>>> print('Hello {0} This is your class {1}'.format(a, b))
+Hello Julia This is your class 2
+>>> print('Hello {0} This is your class {1} we had {1} people'.format(a, b))
+Hello Julia This is your class 2 we had 2 people
+>>> print('Hello {name} This is your class {number} we had {number} people'.format(name = a,number = b))
+Hello Julia This is your class 2 we had 2 people
+>>> 
+
+a = 10
+>>> b = 'Julia'
+>>> c = 1.5
+>>> d = '100'
+>>> e = [10, 20, 30]
+>>> f = { x: 10, y: 20}
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'x' is not defined
+>>> f = { 'x': 10, 'y': 20}
+>>> type(a)
+<class 'int'>
+>>> type(b)
+<class 'str'>
+>>> type(c)
+<class 'float'>
+>>> type(e)
+<class 'list'>
+>>> type(f)
+<class 'dict'>
+>>> e
+[10, 20, 30]
+>>> print(e[0])
+10
+>>> print(e[-1])
+30
+>>> f
+{'x': 10, 'y': 20}
+>>> print(f['x'])
+10
+>>> a = 'Julia'
+>>> b =  2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'aws' is not defined
+>>> print('Hello ' + a + 'this is your class ' + str(b))
+Hello Juliathis is your class 2
+>>> print('Hello '+ a +  ' this is your class ' + str(b))
+Hello Julia this is your class 2
+>>> print('Hello {} This is your class {}'.format(a, b))
+Hello Julia This is your class 2
+>>> print('Hello {0} This is your class {1}'.format(a, b))
+Hello Julia This is your class 2
+>>> print('Hello {0} This is your class {1} we had {1} people'.format(a, b))
+Hello Julia This is your class 2 we had 2 people
+>>> print('Hello {name} This is your class {number} we had {number} people'.format(name = a,number = b))
+Hello Julia This is your class 2 we had 2 people
+>>> for i in range(10):
+...   print(i)
+... 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> for i in range (10):
+... printi[2]) or print(range[1])
+  File "<stdin>", line 2
+    printi[2]) or print(range[1])
+         ^
+IndentationError: expected an indented block
+>>> 
+>>> total = 0
+>>> 
+>>> for i in range(10):
+...   total = total + i
+... 
+>>> print(total)
+45
+>>> range(10)
+range(0, 10)
+>>> for i in [10, 20 , 30]:
+...   print(i)
+... 
+10
+20
+30
+>>> for name in ['Julia', 'Nayana', 'Bob', 'San']:
+... 
+  File "<stdin>", line 2
+    
+    ^
+Python lesson below:
+
+>>> for name in ['Julia', 'Nayana', 'Bob', 'San']:
+...   print('Hello ' + name)
+... 
+Hello Julia
+Hello Nayana
+Hello Bob
+Hello San
+>>> exit()
+julia.guida@FT-MW4941 ~/workspace/learning_python $ python lesson.py
+Please guess a number between 1 and 10? 5
+Keep trying this time the number was too low. 
+Please guess a number between 1 and 10 5
+You guessed too low 
+How many apple did you buy ? 5
+How many oranges ? 5
+Total of fruits you bought today is =  10
+julia.guida@FT-MW4941 ~/workspace/learning_python $ python
+Python 3.7.1 (default, Nov  9 2019, 16:51:04) 
+[Clang 10.0.1 (clang-1001.0.46.4)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> for i in range(10):
+...   print(i)
+... 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> 
