@@ -309,4 +309,20 @@ Type "help", "copyright", "credits" or "license" for more information.
 7
 8
 9
->>> 
+>>> #phrase = 'We are peace'
+
+#for i in phrase:
+ # replace('aeiouAEIOU') erro message strh can not use method, model can use it.
+ (option create a variable and do not declare) or a eg : user_name = '' or user_name = 'none'.
+ I did not quite get why none when you would have to have a parameter to be replaced or an item.
+#
+# print(i)
+
+def rem_vowel(string): 
+    vowels = ('a', 'e', 'i', 'o', 'u')  
+    for x in string.lower(): 
+        if x in vowels: 
+            string = string.replace(x, "") 
+              
+    # Print string without vowels 
+    print(string) 

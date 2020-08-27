@@ -34,8 +34,7 @@ print('Total of fruits you bought today is' ' = ',apples + oranges )
 
 numbers = int(input('What is your favourite number? '))
   
-  numbers = int(0
+numbers = int(0)
 
-  for i in numbers(3):
-    total = += 1
+for i in numbers
     print(numbers)
