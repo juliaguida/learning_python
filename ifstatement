@@ -1,0 +1,19 @@
+How to create an if statement:
+
+If statement
+
+if <expr>:
+    <statement(s)>
+else:
+    <statement(s)>
+
+Python follows the off-side rule to indicate when the function block finishes,
+ by the position of the last statement. A control flow in python will have the following:
+An if statement, a : in the end of the statement, comparison,
+
+name = input('what is your name')
+if name >= 'Julia':
+   print('Hi Julia')
+else:
+   print('Sorry! you are not Julia')
+
