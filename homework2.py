@@ -5,7 +5,7 @@ if x > 10:
    
   print('x is greater than 10 ')
 
-"""elif x < 10:
+elif x < 10:
    print(' x is not greater than 10 ')
 
 
