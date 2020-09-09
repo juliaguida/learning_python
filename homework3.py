@@ -26,11 +26,11 @@ numb1= int(input('Please enter a number '))
 numb2= int(input('Please enter a number '))
 total = numb1 + numb2
 while total / 2:
-    #total += 1
+    total += 1
     print(total, 'This number is divided by 2')
 else:
     print('{}This number is not divided by 2'.format(total))
-total += 1
+
 
 
 
