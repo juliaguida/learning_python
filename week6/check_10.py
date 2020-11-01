@@ -3,4 +3,4 @@ check_numb = int(input('Please enter a number: '))
  if check_numb > 10:
     print('The number {} is greater than 10 '.format(check_numb))
 elif check_numb < 10:
-#     print('This number is not greater than 10'.format(check_numb))
+    print('This number is not greater than 10'.format(check_numb))
