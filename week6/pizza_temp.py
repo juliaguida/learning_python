@@ -8,9 +8,9 @@
 # Prints "The temperature is close enough"for any other temperature
 
 oven_temp = int(input('Please,what is the over temperature? '))
-if oven_temp < 200:
+if oven_temp > 200:
     print( 'The oven is too hot')
-elif oven_temp > 150:
+elif oven_temp < 150:
     print('The oven is too cold')
 elif oven_temp == 180:
     print('The oven is at the perfect temperature')
