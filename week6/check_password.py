@@ -3,7 +3,7 @@
 
 password = 'I am allowed'
 user_input = input('Please enter you password: ')
-if user_input == 'I am allowed':
+if user_input == password:
     print('Welcome!!!')
 else:
     print('Go Away!!!')
