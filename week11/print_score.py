@@ -15,7 +15,7 @@ for i in user_list:
     user_int_list.append(int(i))
 print(user_int_list)
 print('numbers of scores recorded {}'.format(len(user_int_list)))
-print('Max score recoreded {}'.format(max(user_int_list)))
+print('Max score recorded {}'.format(max(user_int_list)))
 print('Min score recorded {}'.format(min(user_int_list)))
 user_int_list.sort(reverse = True)
 print('List of score in descending order {}'.format(user_int_list))
