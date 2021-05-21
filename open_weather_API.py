@@ -24,7 +24,7 @@ def check_weather(canvas):
     label2.config(text = final_data)
     
 # UI by importing tkinter 'web page to enter the city to get the weather.
-canvas = tk.Tk()
+canvas = tk.tk() 
 canvas.geometry('600x500')
 canvas.title('Going out? Check the weather!!!')
 
